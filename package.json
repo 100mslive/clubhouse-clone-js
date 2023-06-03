@@ -1,0 +1,32 @@
+{
+  "name": "clubhouse-clone",
+  "version": "1.0.0",
+  "description": "Learn how to build a clubhouse clone using 100ms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100mslive/clubhouse-clone-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/100mslive/clubhouse-clone-js/issues"
+  },
+  "homepage": "https://github.com/100mslive/clubhouse-clone-js#readme",
+  "dependencies": {
+    "@100mslive/hms-video-store": "^0.10.3",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "process": "^0.11.10"
+  }
+}
